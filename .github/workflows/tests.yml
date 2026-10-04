@@ -24,6 +24,7 @@ jobs:
 
       - name: Run main program (optional)
         run: ./build/main
+        continue-on-error: true
 
       - name: Run tests
         run: make test
